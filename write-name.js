@@ -42,6 +42,7 @@ for(c = 0; c < choose.length; c++){
                         screen.value = "";
                         console.log(count);
                     } 
+                    animals = [];
                     });
                 stup.addEventListener("click" , function(){ 
                     imgs[count].style.display = "none"; 
