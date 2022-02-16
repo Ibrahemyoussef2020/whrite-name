@@ -1,5 +1,8 @@
 body ,*{
     box-sizing: border-box;
+}
+body{
+    margin: 0;
 } 
 input,button{
     border: 0.5px solid rgb(7 12 31 / 49%);
@@ -12,8 +15,8 @@ input,button{
     -moz-appearance: none;
     -o-appearance: none;
     appearance: none;
-    
-    line-height: 1.6rem;
+
+    line-height: 2rem ;
     font-weight: 900;
     color: #1967db;
 }
@@ -25,14 +28,12 @@ section{
 @media only screen and (max-width: 1000px) {
     section{
         width: 90vw; 
-        margin-top: 70px;
      }
 }
 main{
     display: flex;
     width: 100%;
     padding: 5px;
-    padding-bottom: 10px;
     border:1px solid #777;
     border-bottom-width: 0;
     background: rgb(239, 239, 239);
@@ -126,7 +127,7 @@ div img:nth-last-of-type(11){
     background: #12466f;
 }
 .screen > input{
-    line-height: 1.4rem;
+    line-height: 1.9rem;
     text-align: center;
     width: 50%;
     margin: 0 0 0 25%;
@@ -145,5 +146,4 @@ div img:nth-last-of-type(11){
     }
     .form > * {
        flex: 1;
-       padding : 5px;
     }
