@@ -1,13 +1,18 @@
 body ,*{
     box-sizing: border-box;
 } 
-input,
-button{
+input,button{
     border: 0.5px solid rgb(7 12 31 / 49%);
     border-radius : 0;
     -webkit-border-radius:0 ;
     -moz-border-radius:0 ;
     -o-border-radius:0 ;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    
     line-height: 1.6rem;
     font-weight: 900;
     color: #1967db;
