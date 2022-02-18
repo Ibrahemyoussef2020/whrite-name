@@ -16,14 +16,28 @@ input,button{
     -o-appearance: none;
     appearance: none;
 
-    line-height: 2rem ;
-    font-weight: 900;
+    line-height: 0px ;
+    font-weight: 300;
+    font-size: 1.7rem;
     color: #1967db;
+    padding: 2px;
 }
+
+button.awesome , input.awesome {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+button.awesome.space{
+    font-size: 2.5rem;
+}
+
+/*/////////////*/
 
 section{
    width: 50vw; 
-    margin: auto auto;
+    margin: 5px auto 0px auto;
 }
 @media only screen and (max-width: 1000px) {
     section{
@@ -40,8 +54,9 @@ main{
 }
 main * {
     flex: 1;
-    padding:10px 1px 10px 1px;
-    
+    padding:20px 1px 20px 1px;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 700;
 }
 header{
     height: 35vh;
@@ -127,7 +142,6 @@ div img:nth-last-of-type(11){
     background: #12466f;
 }
 .screen > input{
-    line-height: 1.9rem;
     text-align: center;
     width: 50%;
     margin: 0 0 0 25%;
@@ -136,7 +150,6 @@ div img:nth-last-of-type(11){
     outline: none;
     background: -webkit-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3) );
     background: #eee;
-    font-weight: 900;
     color: #1967db;
 }
 .form {
@@ -147,3 +160,5 @@ div img:nth-last-of-type(11){
     .form > * {
        flex: 1;
     }
+
+    

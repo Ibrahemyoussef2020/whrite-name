@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>learn</title>
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="write-name.css"> 
   </head>
   <body>
       <section>
         <main>
-           <input type="button" class="choose" value="animals">
-           <input type="button" class="choose" value="foods">
-           <input type="button" class="choose" value="transports">
-           <input type="button" class="stup" value="stup">
-           <input type="button" class="restart" value="restart">
+           <input type="button" class="choose" title="animals" value="&#xf6f0;">
+           <input type="button" class="choose" title="foods" value="&#xf5d1;" >
+           <input type="button" class="choose" title="transports"value="&#xf55e;" >
+           <input type="button" class="stup" value="&#xf051;">
+           <input type="button" class="restart" value="&#xf2f9;">
         </main>
         <header>
-            <div id = "animals" title="animals">
+            <div id = "animals" title="animals" class="animals">
                 <img src="img/animals/lion.jpg"  class="lionD"  title="lion">
                 <img src="img/animals/tiger.jpg" class="tigerD" title="tiger">
                 <img src="img/animals/camel.jpg" class="camelD" title="camel">
@@ -28,8 +29,9 @@
                 <img src="img/animals/bear.jpg"  class="bearD" title="bear">
                 <img src="done.webp"   title="welldone">
             </div>
-            <div id = "foods" title="foods">
-                <img src="img/foods/carrots.jpg"    title="carrots">
+            <div id = "foods" title="foods" class="foods">
+          
+                <img src="img/foods/carrots.jpg" class="carrot"   title="carrots">
                 <img src="img/foods/garlic.jpg"  title="garlic">
                 <img src="img/foods/green-onion.jpg"  title="green onion">
                 <img src="img/foods/lettuce.jpg"  title="lettuce">
@@ -41,8 +43,8 @@
                 <img src="img/foods/watermelon.jpg"   title="watermelon">
                 <img src="done.webp"   title="welldone">
             </div> 
-            <div id = "transports" title="transports">
-                <img src="img/transports/bicycle.jpg"    title="bicycle">
+            <div id = "transports" title="transports" class="transports" >
+                <img src="img/transports/bicycle.jpg" class="bicycle"   title="bicycle">
                 <img src="img/transports/bus.jpg"  title="bus">
                 <img src="img/transports/car.jpg"  title="car">
                 <img src="img/transports/metro.jpg"  title="metro">
@@ -55,7 +57,7 @@
                 <img src="done.webp"   title="welldone">
             </div> 
         </header>
-        <form class="screen"><input id="screen"></form>
+        <article class="screen"><input id="screen" value=""></article>
         <form class="form">
             <button type="button" value="a">a</button>
             <button type="button" value="b">b</button>
@@ -66,6 +68,7 @@
             <button type="button" value="g">g</button>
             <button type="button" value="h">h</button>
             <button type="button" value="i">i</button>
+            <button type="button" value="j">j</button>
             <button type="button" value="k">k</button>
             <button type="button" value="l">l</button>
             <button type="button" value="m">m</button>
@@ -82,8 +85,10 @@
             <button type="button" value="x">x</button>
             <button type="button" value="y">y</button>
             <button type="button" value="z">z</button>
-            <button type="button" value=" ">space</button>
-            <input type="button" value="entry" class="input">
+            <button type="button" value=" " class="awesome space">&#xf068;</button>
+            <button type="button"  class="close awesome">&#xf410;</button>
+            <button type="button"  class="clear awesome">&#xf2ed;</button>
+            <input type="button" value="&#xf25a;" class="input awesome">
         </form>
     </section>   
       <script src="write-name.js"></script>
