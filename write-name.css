@@ -20,10 +20,10 @@ input,button{
     appearance: none;
 
     line-height: 0px ;
-    font-weight: 300;
-    font-size: 1.7rem;
+    font-weight: 900;
+    font-size: 1.5rem;
     font-family:'Font Awesome 6 Free', "taoma" , sans-serif  ;
-    color: #086afd ;
+    color: #196ded ;
     padding: 2px;
     text-transform: capitalize;
     
@@ -158,6 +158,7 @@ div img:nth-last-of-type(11){
     background: -webkit-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3) );
     background: #eee;
     color: #1967db;
+    text-transform: lowercase !important;
 }
 .form {
     display: grid;

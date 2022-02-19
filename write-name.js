@@ -46,7 +46,7 @@ for(c = 0; c < choose.length; c++){
    function Fbuttons(){
     for(b = 0 ; b < but.length  ; b++ ){ 
           but[b].addEventListener("click", function(){ 
-              screen.value += this.value;                   
+              screen.value += this.value;                  
           });  
       }
     } 
