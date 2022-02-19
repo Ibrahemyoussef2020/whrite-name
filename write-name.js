@@ -67,7 +67,7 @@ for(c = 0; c < choose.length; c++){
 
 /////////////////////////
 enter.addEventListener("click" , function(){
-    if(imgs[count].title === screen.value){
+    if(imgs[count].title == screen.value){
          imgs[count].style.display = "none";
          count++;
          if(count == imgs.length -1){

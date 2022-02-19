@@ -1,5 +1,8 @@
 body ,*{
     box-sizing: border-box;
+    font-weight: 900 !important;
+    text-transform: capitalize !important;
+    font-family:'Font Awesome 6 Free', "taoma" , sans-serif  ;
 }
 body{
     margin: 0;
@@ -20,9 +23,9 @@ input,button{
     font-weight: 300;
     font-size: 1.7rem;
     font-family:'Font Awesome 6 Free', "taoma" , sans-serif  ;
-    color: #086afd;
+    color: #086afd ;
     padding: 2px;
-
+    text-transform: capitalize;
     
 }
 
