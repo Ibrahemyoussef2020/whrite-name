@@ -72,6 +72,7 @@ enter.addEventListener("click" , function(){
          count++;
          if(count == imgs.length -1){
              count = count - 1 ;
+             
              return "well done"; 
         }
         console.log(imgs[count].title);
